@@ -1,3 +1,7 @@
+<!-- joxia-credits -->
+> 🎮 **Fork Joxia Games** de [Casmo/tower-defense](https://github.com/Casmo/tower-defense) — jeu original de ses auteurs, licence **MIT** (fichier `LICENSE` d'origine conservé). Jouer : https://joxiagame.github.io/tower-defense-joxia/ · Crédits : [`CREDITS.md`](CREDITS.md) · Liste source : [leereilly/games](https://github.com/leereilly/games)
+<!-- /joxia-credits -->
+
 # Tower Defense
 A Tower Defense game build with the [Three.js](https://github.com/mrdoob/three.js) library written in Javascript & HTML5.
 
