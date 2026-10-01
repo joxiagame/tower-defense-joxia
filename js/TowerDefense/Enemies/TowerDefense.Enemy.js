@@ -119,6 +119,8 @@ TowerDefense.Enemy.prototype.removeHealth = function(health) {
     this.stats.hp -= health;
     if (this.stats.hp <= 0) {
         TowerDefense.stats.score += this.stats.score;
+        // Joxia : points gagnés (jamais dépensés) envoyés au classement du hub
+        if (window.joxiaScore) window.joxiaScore(TowerDefense.stats.score);
         TowerDefense.stats.resources += this.stats.resources;
         if (typeof TowerDefense.objects[this.id].tween.stop == 'function') {
             TowerDefense.objects[this.id].tween.stop();
